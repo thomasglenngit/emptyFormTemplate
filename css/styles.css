@@ -31,7 +31,7 @@ button {
 p.one {
   float: left;
   width: 30%;
-  margin: 5px;
+  margin: 10px;
   border: 2px;
   padding: 2px;
   
@@ -41,7 +41,7 @@ p.two {
   float: left;
   
   width: 30%;
-  margin: 5px;
+  margin: 10px;
   border: 2px;
   padding: 2px;
 }
@@ -50,7 +50,7 @@ p.three {
   float: left;
 
   width: 30%;
-  margin: 5px;
+  margin: 10px;
   border: 2px;
   padding: 2px;
 }
@@ -59,7 +59,7 @@ p.four {
   float: left;
   clear: left;
   width: 30%;
-  margin: 5px;
+  margin: 10px;
   border: 2px;
   padding: 2px;
 }
@@ -67,7 +67,7 @@ p.four {
 p.five {
   float: left;
   width: 30%;
-  margin: 5px;
+  margin: 10px;
   border: 2px;
   padding: 2px;
 
