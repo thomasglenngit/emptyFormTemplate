@@ -10,6 +10,54 @@
   <title></title>
 </head>
 <body>
+
+  <!-- this is code for a drop-down menu -->
+  <select class="form-control" id="beverage">
+    <option>Coffee</option>
+    <option>Tea</option>
+    <option>Kombucha</option>
+    <option>Water</option>
+  </select>
+
+<!-- this is code for a drop-down menu with numeric values -->
+  <select class="form-control" id="beverage">
+    <option value="1">Coffee</option>
+    <option value="2">Tea</option>
+    <option value="3">Kombucha</option>
+    <option value="4">Water</option>
+  </select>
+
+<!-- this is code for radio buttons -->
+  <div class="radio">
+    <label>
+      <input type="radio" name="flavor" value="chocolate" checked>
+      Chocolate
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="flavor" value="vanilla">
+      Vanilla
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="flavor" value="cookiesandcream">
+      Cookies & Cream
+    </label>
+  </div>
+
+  <!-- this is code for calendar entries -->
+  <div class="form-group">
+    <label for="born">Date of birth:</label>
+    <input id="born" class="form-control" type="date">
+  </div>
   
+<!-- this is code for a color wheel -->
+  <div class="form-group">
+    <label for="color">What is your favorite color?</label>
+    <input id="color" class="form-control" type="color">
+  </div>
+
 </body>
 </html>
